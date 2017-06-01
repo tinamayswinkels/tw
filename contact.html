@@ -1,0 +1,64 @@
+---
+layout: default
+title: Tropica Weddings
+---
+      <!-- FIRST SECTION - - - - - - - - - - - - - - -->
+
+        <section>
+          <h2>CONTACT US</h2>
+          <p class="centered editable">Contact us by filling out the form below and we will do our best to cater our services to your budget.</p>
+          </section>
+
+          <!-- SECOND SECTION CONTACT FORM START- - - - - - - - - - - - - - -->
+
+          <section class="no-margin-top">
+            <!-- the form action attribute is where the form data is sent -->
+        <!-- the form method attribute i how the form is submitted; use POST -->
+        <form action="https://formspree.io/hello@tropicaweddings.com"
+      method="POST">
+        <div class="contact-form">
+
+          <div class="one-half mobstack">
+          <label for="full-name">FULL NAME</label>
+          <input type="text" placeholder="Full Name" name="Full-Name" id="Full-Name" />
+          </div><!--
+            -->
+          <div class="one-half mobstack">
+            <label for="email">EMAIL</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" />
+          </div>
+
+            <!--******** wedding location ********-->
+          <div class="one-half mobstack">
+            <label for="wedding-location">WEDDING LOCATION</label>
+            <input type="wedding-location" placeholder="Wedding Location" name="wedding-location" id="wedding-location" />
+          </div><!--
+            -->
+
+            <!--******** wedding date ********-->
+          <div class="one-half mobstack">
+            <label for="wedding-date">WEDDING DATE</label>
+            <input type="wedding-date" placeholder="Wedding Date" name="wedding-date" id="wedding-date" />
+          </div>
+
+            <!--******** estimated budget ********-->
+          <div class="one-half mobstack">
+            <label for="estimated-budget">ESTIMATED BUDGET</label>
+            <input type="estimated-budget" placeholder="Estimated Budget" name="estimated-budget" id="estimated-budget" />
+          </div>
+
+        </div>
+
+            <!--******** message ********-->
+            <div class="block">
+            <label for="message">WRITE A MESSAGE</label>
+            <textarea name="message" id="message" placeholder="Write a message"></textarea>
+           </div>
+
+            <!--******** buttons ********-->
+            <!-- the value attribute is the text displayed on the submit button -->
+            <input class="contact-button" type="submit" value="SEND" />
+            <input type="hidden" name="_next" value="/thanks.html" />
+
+        </form>
+</section>

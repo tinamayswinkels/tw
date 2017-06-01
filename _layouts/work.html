@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="proflex">
+<div class="two-thirds">
+  {{page.video}}
+  {% for pic in page.images %}
+    <img class="padded" src="{{pic.pic_path}}" alt="{{pic.photo-name}}">
+  {% endfor %}
+</div><!---
+---><div class="one-third">
+  <h1 class="works">{{page.title}}</h1>
+<p>{{content}}</p>
+</div>
+</section>

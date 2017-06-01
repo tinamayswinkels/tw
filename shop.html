@@ -1,0 +1,26 @@
+---
+layout: default
+title: Tropica Weddings
+---
+        <section>
+          <h2>SHOP</h2>
+          <p class="centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non odio ex. Duis quis turpis nec justo ullamcorper gravida a a urna. Proin id orci justo. Curabitur efficitur porttitor ullamcorper. Pellentesque non blandit mi, eget varius leo. Pellentesque lectus arcu, mollis vehicula nunc sit amet, interdum tincidunt nunc. Praesent laoreet condimentum vulputate. Aliquam lacus magna, congue congue bibendum et, hendrerit vel risus. </p>
+          </section>
+
+      <!-- Second SECTION - - - - - - - - - - - - - - -->
+        <section>
+          {% for product in site.products %}<div class="one-third">
+              <img src="{{product.image_path}}" alt="{{product.title}}">
+              <p>{{product.title}}</p>
+              <p>{{product.description}}</p>
+            <button
+                class="snipcart-add-item"
+                data-item-id="{{product.id}}"
+                data-item-name="{{product.name}}"
+                data-item-price="{{product.price}}"
+                data-item-url="/products/{{product.name | slugify }}"
+                data-item-description="{{product.description}}">
+                    Buy
+            </button>
+            </div>{% endfor %} <!-- keep this on the same line to prevent whitespace issue -->
+    </section>

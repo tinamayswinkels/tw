@@ -1,0 +1,753 @@
+/* Colors
+#FFBC9B - coral
+#F2E6DD- blush
+#666666- grey
+*/
+
+/* ------------------ CSS RESET ---------------------- */
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.visibility { visibility: hidden;}
+
+.blog-image-container {
+  background-size:cover;
+  background-position:center;
+  padding-bottom:100%;
+}
+
+/* ------------------ UNIVERSAL STYLES  ---------------------- */
+
+body {
+  background-color: #FFBC9B;
+  font-family: 'Poppins', sans-serif;
+  color: #666;
+}
+
+header {
+    background-color: #FFBC9B;
+    height: 70px;
+}
+
+header,footer {
+  padding: 0% 4%;  /* top & bottom ___ left & right */
+}
+div.border {
+  padding: 0 1em 1em 1em; /* Top, left and right, bottom */
+  margin-top: 70px; /* This is to give space at the top so that everythign doesn't hide in under the header */
+  background-color: #FFBC9B;
+}
+.wrap {
+    background-color: white;
+}
+
+section {
+  background-color:white;
+  padding: 3% 4% 0;
+}
+footer .one-half {
+  margin: 0;
+  width: 50%;
+}
+section.no-margin-top{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+h1{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 29px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ffbc9b;
+  text-align: center;
+}
+
+h2, h3 {
+  letter-spacing: 2px;
+  color: #666;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 3%;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 12px;
+letter-spacing: .5px;
+  padding: 0;
+  line-height: 200%;
+}
+
+a:hover {
+  color: #FFBC9B;
+}
+
+.mob-show {
+    display: none;
+}
+
+.rect-small {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.rect-big {
+  width: 100%;
+  margin: 5px 0;
+}
+
+
+img.circle {
+  border-radius: 50%;
+  padding: 22px;
+}
+
+.rect-full {
+  /*height: 310px;*/
+  width: 100%;
+  object-fit: cover;
+}
+
+.centered {
+  text-align: center;
+}
+.padded {
+    padding: 1em;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid #FFBC9B;
+  margin: 1% 4%;
+}
+.white {
+  background-color: white;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.no-padding-top{
+  padding-top: 0;
+}
+
+.noPadBot{
+    padding-bottom:0;
+}
+
+.float-right{
+  float: right;
+}
+
+.padding-bottom{
+  padding-bottom: 4%;
+}
+
+.coralbar{
+  position: fixed;
+  width:100%;
+  height:80px;
+  background-color: #FFBC9B;
+  z-index: 990;
+ }
+
+a.homenav {
+    font-size: 14px;
+}
+
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    /*min-height: 500px;*/
+}
+
+.slick-slide img{
+    width:100%;
+    display: block;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track{
+        height: auto !important;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+iframe{
+    width:100%;
+    padding: 1em;
+}
+
+/* ------------------ GRID LAYOUT ---------------------- */
+
+.one-half, .one-third, .two-thirds, .full-width, .one-sixth {
+    margin:1%;
+    display: inline-block;
+}
+.one-third{
+  width: 31.33%;
+}
+.two-thirds {
+  width: 64.66%;
+}
+.full-width{
+  width: 100%;
+}
+.one-half {
+  width: 47%;
+}
+
+.one-sixth {
+  width: 14%;
+}
+
+.block {
+  display:block;
+  margin: 1%;
+}
+
+.proflex{
+    display:flex;
+    
+}
+
+/* ------------------ CONTACT FORM LAYOUT ---------------------- */
+
+form {
+    /* center the form in the middle of the page */
+
+    margin: 0 auto;
+    padding: 1%;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+input, select {
+  padding: 3.5%;
+  border: 1px solid #FFBC9B;
+  display: inline-block;
+  margin-bottom: 3%;
+  color: #a7a9ab;
+  width: 100%;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+input[type="submit"].contact-button {
+    width: 200px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: 36px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+textarea{
+  padding: 3.5%;
+  width: 100%;
+  border: 1px solid #FFBC9B;
+  display: inline-block;
+  margin-bottom: 3%;
+  /*color: #FFBC9B;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  /*letter-spacing: 2px;*/
+  /*font-size: 12px;*/
+  /*text-transform: uppercase;*/
+}
+
+label, fieldset legend {
+    margin: 2% 0;
+    /* make the line-height 1.5x default */
+    line-height: 1.5;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+    /* only allow textarea to be resized vertically between 200px & 300px */
+    resize:vertical;
+    max-height:300px;
+    min-height:200px;
+}
+
+
+fieldset {
+    /* remove border around fieldsest */
+    border: 0;
+}
+
+fieldset legend {
+    /* make legend stand out different from labels */
+    font-weight: bold;
+}
+
+fieldset input:first-of-type {
+    /* remove the left margin from the first input so the first input left aligns with the legend */
+    margin-left: 0;
+}
+
+input[type="number"] {
+    /* make the input field smaller */
+    width: 25%;
+}
+input[type="color"] {
+    /* remove padding and border from color picker so can see color */
+    padding: 0;
+    border-radius: 0;
+}
+input[type="submit"] {
+    /* change style of submit button */
+    background-color: #666;
+    border: none;
+    color: #fff;
+    margin: 1%;
+}
+input[type="submit"]:hover, label, button {
+    /* show hand cursor on hover to indicate it is clickable */
+    cursor: pointer;
+}
+input[type="submit"], button {
+    padding: 2% 0;
+    display: inline;
+    border: none;
+    letter-spacing: 2px;
+}
+input[type="submit"] {
+    /* increase left & right padding of submit button since it is primary action */
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+button {
+    background-color: #666;
+    width: 27%;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding: 3%;
+    color: white;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+}
+
+.border nav{
+  letter-spacing: 2px;
+  padding-bottom: 3%;
+}
+
+/* ------------------ PORTFOLIO PAGE ---------------------- */
+
+.rect-full img {
+  /*height: 310px;*/
+  width: 100%
+}
+
+.image-grid a{
+    filter:grayscale();
+} 
+.image-grid a:hover{
+    filter: none;
+    
+} 
+
+h1.works{
+    text-align:left;
+    color:#666;
+    padding-bottom: 20px;
+    padding-top: 15px; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    letter-spacing: 4px;
+}
+
+
+/* ------------------ ABOUT PAGE ---------------------- */
+
+.port-nav {
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+
+video{
+    width:100%;
+    height:30vw;
+}
+
+
+
+
+/* ------------------ BLOG PAGE MAIN ---------------------- */
+
+.one-third p {
+  letter-spacing: 2px;
+}
+
+.blog-nav {
+  border: 1px solid #FFBC9B;
+  height: 310px;
+  padding: 2% 5% 2% 6%;
+  line-height: 220%;
+  list-style: none;
+}
+
+/* ------------------ BLOG PAGE SIDEBAR ---------------------- */
+
+.blog-nav {
+  border: 1px solid #FFBC9B;
+  height: 310px;
+  padding: 2% 5% 2% 6%;
+  line-height: 220%;
+  list-style: none;
+}
+
+.sidebar {
+  display: inline-block;
+  width:30%;
+}
+
+
+
+/* ------------------ HEADER & FOOTER  ---------------------- */
+header {
+  position:fixed;
+  width: 100%;
+  z-index: 998;
+  background-color: #FFBC9B;
+  height: 70px;
+  top:0;
+}
+
+header img {
+    height: 50px;
+    margin: 10px;
+}
+
+header .cart{
+  padding: 2% 0;
+  margin-right: 50px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+h1 img {
+    max-width: 500px;
+}
+
+header a:hover {
+  color: #f7edeb;
+}
+
+header nav, header nav ul, header nav li {
+    display: inline-block;
+}
+
+header nav{
+    margin-top: 25px;
+    float: right;
+  margin-right: 50px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+header nav li{
+    margin-left: 10px;
+    color: white;
+}
+
+footer {
+  background-color: #666;
+  color: #f7edeb;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+.right-footer {
+    text-align:right;
+}
+
+footer nav {
+  padding-bottom: 5%;
+  padding-top: 6%;
+}
+
+p.left{
+  padding-top: 6%;
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+a .fa{
+  font-size: 25px;
+  padding-bottom:4%;
+  letter-spacing: 5px;
+}
+
+footer p {
+  font-size: 9px;
+}
+
+.right p, #right-footer p {
+  font-size: 10px;
+  padding-bottom: 2%;
+  padding-top: 6%;
+}
+
+.right nav, #right-footer nav {
+  padding-top: 4%;
+  font-size: 9px;
+}
+
+#right-footer nav {
+  text-align:right;
+}
+
+
+.mobilenav {
+    padding-top: 60px;   
+}
+
+
+/* ------------------ GRID LAYOUT ---------------------- */
+
+.carousel {
+  height: 50px;
+  background-color: grey;
+}
+
+
+/* ------------------ MAILCHIMP FORM STYLE ---------------------- */
+form.mailchimp {
+  padding: 0;
+}
+.mailchimp input {
+  display: inline-block;
+  padding: 2%;
+  border: 1px solid #f7edeb;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mailchimp input[type="email"] {
+  width: 48%;
+  max-width:350px;
+}
+
+.bob.mailchimp input[type="email"] {
+  width: 80%;
+  margin: 4px auto;
+
+}
+
+.bob.mailchimp input[type="submit"] {
+  width: 80%;
+  margin: 0;
+  background-color: #f7edeb;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFBC9B;
+  margin: 0 auto;
+}
+.bob.mailchimp input[type="submit"]:hover {
+  background-color: #f7edeb;
+  color: #666;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mailchimp input[type="submit"] {
+  width: 48%;
+  max-width:350px;
+  margin: 0;
+  background-color: #666;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f7edeb;
+}
+.mailchimp input[type="submit"]:hover {
+  background-color: #f7edeb;
+  color: #666;
+}
+
+::-webkit-input-placeholder {
+   color: #FFBC9B;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFBC9B;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFBC9B;
+}
+
+:-ms-input-placeholder {
+   color: #FFBC9B;
+}
+
+#mc_embed_signup_scroll {
+    text-align: right;
+    max-width: 500px;
+    margin: 0 0 0 auto;
+}
+#mc_embed_signup_scroll p {
+    padding-left: 20px;
+}
+
+
+/*------------------ FILTERABLE GALLERY ------------------*/
+#portfolio-grid .img-with-overlay.hidden {
+    opacity: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease;
+}
+#portfolio-grid .img-with-overlay {
+    transition: all 0.5s ease;
+}
+.img-with-overlay img {
+  transition: transform 1s ease-out;
+}
+.font-size-0 {
+    font-size: 0;
+}
+
+.active{
+    color:#FFBC9B;
+}
+
+/*------------------RESPONSIVE SETTINGS----------------*/
+
+@media (max-width: 900px) {
+    div.border{
+        padding:0;
+        
+    }
+    footer .one-half {
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      width: 100%;
+    }
+
+    #right-footer nav {
+      text-align:center;
+    }
+
+    .mob-hide {
+     display:none;
+    }
+
+    .mob-show {
+      display:block
+    }
+
+    .one-third {
+      margin-top: 4vh;
+      display: block;
+      width: 98%;
+    }
+
+    .two-thirds {
+      margin-top: 4vh;
+      width: 98%;
+    }
+
+    .one-sixth {
+      width: 45%
+    }
+
+    .mobilenav {
+      width: 100%;
+      
+    }
+
+    .mobstack {
+      display: block;
+      width: 100%
+    }
+
+    .mobalign {
+        display: inline-block;
+        margin: 1%;
+        width: 47%;
+    }
+    .proflex{
+       flex-direction:column-reverse;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .icon{
+        top: 45px;
+    }
+    header img {
+        height: auto;
+        max-width: 80%;
+    }
+    ::-webkit-input-placeholder {
+    letter-spacing: 0;
+    }
+    input[type="submit"].contact-button {
+        width: 100%;
+    }
+    #mc_embed_signup_scroll {
+    margin: 0 auto;
+    }
+    
+    h1.works {
+        text-align: center;
+    }
+}
+
+
+
+

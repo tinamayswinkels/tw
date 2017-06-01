@@ -1,0 +1,25 @@
+collections:
+  - products
+  - works
+
+collections:
+  products:
+    output: true
+  works:
+    output: true
+
+# These are your works categories for the filterable gallery
+types:
+  - photography
+  - videography
+  - design
+
+# These are your blog categories
+categories:
+ - photography
+ - design
+ - videography
+
+# about banner thing
+_comments:
+    bannerStyle: Your options for this are Video Youtube Picture anything else wont work

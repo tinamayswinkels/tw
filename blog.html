@@ -1,0 +1,40 @@
+---
+layout: default
+title: Tropica Weddings
+---
+        <section>
+          <h2>BLOG</h2>
+        </section>
+
+      <!-- Second SECTION - - - - - - - - - - - - - - -->
+      <section class="no-margin-top padding-bottom">
+        <div class="two-thirds">
+          <div class="img-slideshow rect-big">
+            <img src="images/tropica-wedding-1.png" alt="tropica-wedding-1" />
+            <img src="images/tropica-wedding2.png" alt="tropica-wedding-2" />
+            <img src="images/tropica-wedding3.png" alt="tropica-wedding-3" />
+            <img src="images/tropica-wedding4.jpg" alt="tropica-wedding-4" />
+          </div>
+        </div><!--
+        --><div class="one-third blog-nav">
+          <h2>CATEGORIES</h2>
+          <nav>
+            <li><a href="*">CATEGORY</a></li>
+            <li><a href="*">CATEGORY</a></li>
+            <li><a href="*">CATEOGY</a></li>
+            <li><a href="*">CATEGORY</a></li>
+          </nav>
+        </div>
+
+        {% for post in site.posts %}<div class="one-third">
+            <div style="background-image:url('{{post.image_path}}');" class="blog-image-container"></div>
+            <a href="{{post.url}}"><h4>{{post.title}}</h4></a>
+            <p class="centered">{{post.category}}</p>
+        </div>{% endfor %}
+
+            </section>
+
+
+        {% for post in site.posts limit:7 %}
+            <a href="{{post.url}}">{{post.title}}</a>
+        {% endfor %}

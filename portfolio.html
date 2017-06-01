@@ -1,0 +1,30 @@
+---
+layout: default
+title: Tropica Weddings
+---
+<section>
+          <h2>OUR WORK</h2>
+          <p class="centered editable">We take a great deal of pride in our work here at Tropica Weddings.<br />Every wedding is unique to each individual couple, and we always hope to capture the day in its true beauty.<br />Take a look through our work below. We hope you enjoy them, as much as we enjoyed working on them!</p>
+          </section>
+
+          <section class="centered">
+            <nav class="port-nav" id="portfolio-filter">
+              <a href="#">ALL</a> /
+              <a href="#">PHOTOGRAPHY</a> /
+              <a href="#">VIDEOGRAPHY</a> /
+              <a href="#">DESIGN</a>
+            </nav>
+          </section>
+
+      <!-- Second SECTION - - - - - - - - - - - - - - -->
+
+       <section class="no-margin-top">
+            <div class="image-grid popup-gallery font-size-0" id="portfolio-grid">
+
+                {% for work in site.works %}<a href="{{work.url}}">
+                    <div class="one-third img-with-overlay {% for item in work.cat %}{{ item }}    {% endfor %}">
+                      <img src="{{work.image_path}}" alt="{{work.alt}}" />
+                    </div>
+            </a>{% endfor %}
+            </div>
+        </section>
