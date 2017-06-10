@@ -23,3 +23,8 @@ categories:
 # about banner thing
 _comments:
     bannerStyle: Your options for this are Video Youtube Picture anything else wont work
+    
+bannerStyle:
+    - Picture
+    - Video
+    - Embeded
