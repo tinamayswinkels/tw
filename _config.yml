@@ -26,7 +26,7 @@ _comments:
     
     
 
-bannerStyle:
+banner_options:
      Picture: Picture
      Video: Video
      Embeded: Embeded
