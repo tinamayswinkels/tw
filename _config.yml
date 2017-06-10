@@ -27,6 +27,6 @@ _comments:
     
 
 bannerStyle:
-    - Picture: Picture
-    - Video: Video
-    - Embeded: Embeded
+     Picture: Picture
+     Video: Video
+     Embeded: Embeded
