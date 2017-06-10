@@ -3,7 +3,7 @@ layout: default
 title: Tropica Weddings
 bannerStyle: Picture
 banner_path: /uploads/cherinetroy-01.png
-video_path:
+embeded_path:
 youtube-embedcode: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/undefined' frameborder='0' allowfullscreen></iframe></div>"
 ---
         <section>
@@ -23,7 +23,7 @@ youtube-embedcode: "<style>.embed-container { position: relative; padding-bottom
                  <source src="{{page.video_path}}" type="video/mp4" />
               </video>
             {% endif %}
-            {% if page.bannerStyle == "Youtube" %}
+            {% if page.bannerStyle == "embeded" %}
             <div class="youtube-container">
             {{page.youtube-embedcode}}
             </div>
