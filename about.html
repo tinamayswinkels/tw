@@ -16,7 +16,7 @@ youtube-embedcode: "<style>.embed-container { position: relative; padding-bottom
 
         <section class="padding-bottom">
             <div class="rect-full youtube">
-              {% if page.banner_options == "Picture" %}
+              {% if thing in page.banner_options == "Picture" %}
                 <img src="{{page.banner_image_path}}" alt="tropica-wedding-5" />
               {% endif %}
               {% if page.banner_options == "Video" %}
