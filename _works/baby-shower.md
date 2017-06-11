@@ -4,8 +4,9 @@ layout: work
 name: Baby Shower
 alt: Baby Shower
 image_path: /tropica-weddings_babyshower.jpg
-cat1: [design]
-video: 
+cat1:
+  - design
+video:
 type: design
 images:
   - pic_path: /uploads/tropica-weddings-baby-shower-001.jpg
