@@ -724,6 +724,10 @@ form.mailchimp {
     .one-seventh{
         width:23%;
     }
+    
+    .works-embed{
+            height: 68.2vw;
+    }
 
     .mobilenav {
       width: 100%;
