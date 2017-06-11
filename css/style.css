@@ -413,9 +413,15 @@ h1.works{
 }
 
 .works-embed iframe{
-        width: 100%;
+    width: 100%;
     padding: 1em;
     height: 44.2vw;
+}
+
+.works-vimeo-embed iframe{
+    width: 100%;
+    padding: 1em;
+    height:26.7vw;
 }
 
 /* ------------------ ABOUT PAGE ---------------------- */
@@ -725,9 +731,13 @@ form.mailchimp {
         width:23%;
     }
     
-    .works-embed iframe{
+    .works-youtube-embed iframe{
         height: 67.3vw;
     }
+    .works-vimeo-embed iframe{
+        height:40.3vw;
+    }
+
 
     .mobilenav {
       width: 100%;
