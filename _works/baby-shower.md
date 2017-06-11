@@ -6,7 +6,7 @@ alt: Baby Shower
 image_path: /tropica-weddings_babyshower.jpg
 cat1:
   - design
-video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TlUjBK97qY8" frameborder="0" allowfullscreen></iframe>'
+video: '<iframe src="https://player.vimeo.com/video/220301745" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 type: design
 images:
   - pic_path: /uploads/tropica-weddings-baby-shower-001.jpg
@@ -26,19 +26,13 @@ images:
 
 Now, baby shower's may not be something we usually do, but we don't mind bending the rules every now and again! We were given the opportunity to design and photograph stationery for a cute little baby shower.
 
-&nbsp;
-
 Polka dots and pink was the theme of the day, so we set off and designed these round little menus and gift signs… Simple!
-
-&nbsp;
 
 ••••
 
 <br>Stylist // the Eventurer
 <br>Florist // Botanics Melbourne
 <br>Venue // L1 Studio
-
-&nbsp;
 
 FEATURED IN
 
