@@ -109,6 +109,10 @@ letter-spacing: .5px;
   line-height: 200%;
 }
 
+.color-text{
+    color: #FFBC9B;
+}
+
 a:hover {
   color: #FFBC9B;
 }
