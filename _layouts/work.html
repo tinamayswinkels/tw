@@ -3,7 +3,9 @@ layout: default
 ---
 <section class="proflex">
 <div class="two-thirds">
+    <div class="works-embed">
   {{page.video}}
+    </div>
   {% for pic in page.images %}
     <img class="padded maxed" src="{{pic.pic_path}}" alt="{{pic.photo-name}}">
   {% endfor %}
