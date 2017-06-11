@@ -709,7 +709,11 @@ form.mailchimp {
     }
 
     .one-sixth {
-      width: 45%
+      width: 45%;
+    }
+    
+    .one-seventh{
+        width:23%;
     }
 
     .mobilenav {
