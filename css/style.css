@@ -126,6 +126,10 @@ a:hover {
   margin: 5px 0;
 }
 
+.maxed{
+    width:100%;
+}
+
 .rect-big {
   width: 100%;
   margin: 5px 0;
