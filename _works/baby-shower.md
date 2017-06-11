@@ -6,7 +6,7 @@ alt: Baby Shower
 image_path: /tropica-weddings_babyshower.jpg
 cat1:
   - design
-video:
+video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TlUjBK97qY8" frameborder="0" allowfullscreen></iframe>'
 type: design
 images:
   - pic_path: /uploads/tropica-weddings-baby-shower-001.jpg
