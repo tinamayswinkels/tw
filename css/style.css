@@ -217,7 +217,7 @@ iframe{
 
 /* ------------------ GRID LAYOUT ---------------------- */
 
-.one-half, .one-third, .two-thirds, .full-width, .one-sixth {
+.one-half, .one-third, .two-thirds, .full-width, .one-sixth, .one-seventh {
     margin:1%;
     display: inline-block;
 }
@@ -236,6 +236,9 @@ iframe{
 
 .one-sixth {
   width: 14%;
+}
+.one-seventh{
+    width: 7%;
 }
 
 .block {
