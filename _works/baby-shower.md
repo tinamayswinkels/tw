@@ -6,7 +6,7 @@ alt: Baby Shower
 image_path: /tropica-weddings_babyshower.jpg
 cat1:
   - design
-youtube:
+youtube: <iframe width="560" height="315" src="https://www.youtube.com/embed/TlUjBK97qY8" frameborder="0" allowfullscreen></iframe>
 vimeo: '<iframe src="https://player.vimeo.com/video/217759099" width="640" height="272" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 type: design
 images:
