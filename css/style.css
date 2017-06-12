@@ -663,7 +663,7 @@ form.mailchimp {
     padding-left: 20px;
 }
 
-textarea::-webkit-input-placeholder{
+textarea::-webkit-input-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, textarea:-moz-placeholder{
   text-align: left;
   font-size: 3rem;
 }
