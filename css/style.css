@@ -663,6 +663,11 @@ form.mailchimp {
     padding-left: 20px;
 }
 
+textarea::-webkit-input-placeholder{
+  text-align: left;
+  font-size: 3rem;
+}
+
 
 /*------------------ FILTERABLE GALLERY ------------------*/
 #portfolio-grid .img-with-overlay.hidden {
