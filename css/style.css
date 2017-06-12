@@ -665,7 +665,7 @@ form.mailchimp {
 
 textarea::-webkit-input-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, textarea:-moz-placeholder{
   text-align: left;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 
